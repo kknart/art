@@ -137,7 +137,7 @@
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
+/* Create four equal columns that sit next to each other */
 
 .column {
   flex: 25%;
@@ -151,7 +151,7 @@
   width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+/* Responsive layout: makes a two column-layout instead of four columns */
 
 @media screen and (max-width: 800px) {
   .column {
@@ -170,7 +170,7 @@
 }
 
 /* svg mail icon on contact page */
-
+/*
 .mailicon {
   width: 1em;
   height: 1em;
@@ -178,6 +178,7 @@
   vertical-align: middle;
   margin: 0.25em 0.25em 0 0;
 }
+*/
 
 /* Hide Mail Form on contact page */
 
