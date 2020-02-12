@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Galerie</title>
+
+    <meta name="description" content="Handmade Art" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow,nosnippet,noarchive">
+    <meta name="googlebot" content="noindex,nofollow,nosnippet,noarchive">
+
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/custom.css">
+    <link rel="stylesheet" href="static/css/justifiedGallery.min.css">
+    <link rel="stylesheet" href="static/css/blueimp-gallery.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href=favicon.ico type="image/x-icon">
+    <link rel="canonical" href="http://art.knevels.org/ /">
+    <script src="static/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="static/js/jquery.justifiedGallery.min.js"></script>
+</head>
+
+<body>
+    <div class="content">
+        <div class="top-shadow"></div>
+
+        <div class="container">
+
+            <header class="header">
+                <div class="header-left">
+                    <a href="/"><img class="sitelogo float-left" src="static/img/sitelogo.svg" alt="Kati Knevels"></a>
+                </div>
+                <span class="header-right">
+
+                    <input type="checkbox" id="op"></input>
+                    <label for="op" class="hamburger lower" onclick="zIndexNegative()">
+                        &#8801;
+                    </label>
+
+                    <div class="overlay">
+                        <label for="op" onclick="zIndexDefault()">&#10006;</label>
+                        <nav>
+                            <ul id="menu">
+                                <li><a href="/">Galerie</a></li>
+                                <li><a href="kurse">Kurse</a></li>
+                                <li><a href="kontakt">Kontakt</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                </span>
+            </header>
+            <main class="main">
+                <div class="main-center">
+
+                    <h1>Galerie</h1>
+
+                    <!-- The Gallery as lightbox dialog, should be a document body child element -->
+                    <div id="blueimp-gallery" class="blueimp-gallery">
+                        <div class="slides"></div>
+                        <h3 class="title"></h3>
+                        <a class="prev">‹</a>
+                        <a class="next">›</a>
+                        <a class="close">×</a>
+                        <a class="play-pause"></a>
+                        <ol class="indicator"></ol>
+                    </div>
+
+                    <div id="artGallery" class="justified-gallery">
+
+                        <a href="img/gallery/1546769633298-5bff4678-45c8-4e38-a528-2681d688a110.jpg">
+                            <img alt="caption for image 1"
+                                src="img/gallery/1546769633298-5bff4678-45c8-4e38-a528-2681d688a110.jpg" />
+                        </a>
+                        <a href="img/gallery/1546769713136-8eb18f11-8ff9-4a5e-b123-d1d7a5ac8ad2.jpg">
+                            <img alt="caption for image 2"
+                                src="img/gallery/1546769713136-8eb18f11-8ff9-4a5e-b123-d1d7a5ac8ad2.jpg" />
+                        </a>
+                        <a href="img/gallery/1546769757899-30d9ec34-9834-4482-8886-9fdffa8eb354_.jpg">
+                            <img alt="caption for image 2"
+                                src="img/gallery/1546769757899-30d9ec34-9834-4482-8886-9fdffa8eb354_.jpg" />
+                        </a>
+                        <a href="img/gallery/1546769815068-766e1c87-8f9d-413f-a110-fe07287d8c7a.jpg">
+                            <img alt="caption for image 1"
+                                src="img/gallery/1546769815068-766e1c87-8f9d-413f-a110-fe07287d8c7a.jpg" />
+                        </a>
+                        <a href="img/gallery/1546769847134-08a6ca39-606d-4f8a-915e-d6de256b2940_.jpg">
+                            <img alt="caption for image 2"
+                                src="img/gallery/1546769847134-08a6ca39-606d-4f8a-915e-d6de256b2940_.jpg" />
+                        </a>
+                        <a href="img/gallery/1546769880107-53214003-2ede-4e14-a32e-cd5e5531e1ea_.jpg">
+                            <img alt="caption for image 1"
+                                src="img/gallery/1546769880107-53214003-2ede-4e14-a32e-cd5e5531e1ea_.jpg" />
+                        </a>
+                        <a href="img/gallery/1546770035417-b6301e3b-4cb5-44f4-9950-8867545040dd.jpg">
+                            <img alt="caption for image 2"
+                                src="img/gallery/1546770035417-b6301e3b-4cb5-44f4-9950-8867545040dd.jpg" />
+                        </a>
+                        <a href="img/gallery/1546770094655-6321149f-25f8-4483-bbff-05ba542f165f.jpg">
+                            <img alt="caption for image 1"
+                                src="img/gallery/1546770094655-6321149f-25f8-4483-bbff-05ba542f165f.jpg" />
+                        </a>
+                        <a href="img/gallery/1546770291501-a9fd6224-bbc0-4d49-9ad3-8cbe7a0229a0_.jpg">
+                            <img alt="caption for image 2"
+                                src="img/gallery/1546770291501-a9fd6224-bbc0-4d49-9ad3-8cbe7a0229a0_.jpg" />
+                        </a>
+                        <a href="img/gallery/1546770375133-eda007dd-1585-44c4-b084-897f3152040e.jpg">
+                            <img alt="caption for image 1"
+                                src="img/gallery/1546770375133-eda007dd-1585-44c4-b084-897f3152040e.jpg" />
+                        </a>
+                        <a href="img/gallery/1546770441864-80716131-7122-4e33-8723-be3fbc69bb0e.jpg">
+                            <img alt="caption for image 2"
+                                src="img/gallery/1546770441864-80716131-7122-4e33-8723-be3fbc69bb0e.jpg" />
+                        </a>
+                        <a href="img/gallery/1546770492500-92e9ddfa-e541-48e3-84be-d814fc6bc79e_.jpg">
+                            <img alt="caption for image 1"
+                                src="img/gallery/1546770492500-92e9ddfa-e541-48e3-84be-d814fc6bc79e_.jpg" />
+                        </a>
+                        <a href="img/gallery/1546770563157-74c50aad-5910-43dc-8f84-4ea473d9a5c3.jpg">
+                            <img alt="caption for image 2"
+                                src="img/gallery/1546770563157-74c50aad-5910-43dc-8f84-4ea473d9a5c3.jpg" />
+                        </a>
+                        <a href="img/gallery/1546770605096-03d35d61-b0ad-4cb7-9119-3fce0b48ef1a_.jpg">
+                            <img alt="caption for image 1"
+                                src="img/gallery/1546770605096-03d35d61-b0ad-4cb7-9119-3fce0b48ef1a_.jpg" />
+                        </a>
+                        <a href="img/gallery/1546770652462-54a1514a-0547-4624-b2a2-d930b5809393_.jpg">
+                            <img alt="caption for image 2"
+                                src="img/gallery/1546770652462-54a1514a-0547-4624-b2a2-d930b5809393_.jpg" />
+                        </a>
+                        <a href="img/gallery/1546770701925-51f79884-cecb-4f96-b0d9-bcc4c29f35a3.jpg">
+                            <img alt="caption for image 2"
+                                src="img/gallery/1546770701925-51f79884-cecb-4f96-b0d9-bcc4c29f35a3.jpg" />
+                        </a>
+                        <a href="img/gallery/1546770746494-d1a66de9-0657-46cf-a164-961c780458ca.jpg">
+                            <img alt="caption for image 1"
+                                src="img/gallery/1546770746494-d1a66de9-0657-46cf-a164-961c780458ca.jpg" />
+                        </a>
+                        <a href="img/gallery/1546770946420-2ba45f90-aea1-463d-ba31-1e695accbc11_.jpg">
+                            <img alt="caption for image 2"
+                                src="img/gallery/1546770946420-2ba45f90-aea1-463d-ba31-1e695accbc11_.jpg" />
+                        </a>
+                        <a href="img/gallery/1546771000804-4df5d081-d82b-4a47-a21f-22e9a2bb94aa.jpg">
+                            <img alt="caption for image 1"
+                                src="img/gallery/1546771000804-4df5d081-d82b-4a47-a21f-22e9a2bb94aa.jpg" />
+                        </a>
+                        <a href="img/gallery/1546771043365-5db82dc2-9e11-473c-868b-3c006e636e62_.jpg">
+                            <img alt="caption for image 2"
+                                src="img/gallery/1546771043365-5db82dc2-9e11-473c-868b-3c006e636e62_.jpg" />
+                        </a>
+                        <a href="img/gallery/1546771101716-2db8293d-08fa-44df-b12d-d22c58a6fcd8_.jpg">
+                            <img alt="caption for image 1"
+                                src="img/gallery/1546771101716-2db8293d-08fa-44df-b12d-d22c58a6fcd8_.jpg" />
+                        </a>
+                        <a href="img/gallery/1546771219346-268aee12-1eca-4bbe-a492-b76b434c7855_.jpg">
+                            <img alt="caption for image 2"
+                                src="img/gallery/1546771219346-268aee12-1eca-4bbe-a492-b76b434c7855_.jpg" />
+                        </a>
+                        <a href="img/gallery/1546771277504-7eb5bb1e-669f-491d-a180-a9314a836de8.jpg">
+                            <img alt="caption for image 1"
+                                src="img/gallery/1546771277504-7eb5bb1e-669f-491d-a180-a9314a836de8.jpg" />
+                        </a>
+                        <a href="img/gallery/1546771360044-af85b3d7-9997-4691-ab85-9b5eb1b7c0f0_.jpg">
+                            <img alt="caption for image 2"
+                                src="img/gallery/1546771360044-af85b3d7-9997-4691-ab85-9b5eb1b7c0f0_.jpg" />
+                        </a>
+                        <a href="img/gallery/1546771436783-c1f6e29f-d332-475d-8bf7-1afc1ef46116_.jpg">
+                            <img alt="caption for image 1"
+                                src="img/gallery/1546771436783-c1f6e29f-d332-475d-8bf7-1afc1ef46116_.jpg" />
+                        </a>
+                        <a href="img/gallery/1546771600764-b3d86fa2-1339-4b31-b6ca-68f023f407ba_.jpg">
+                            <img alt="caption for image 2"
+                                src="img/gallery/1546771600764-b3d86fa2-1339-4b31-b6ca-68f023f407ba_.jpg" />
+                        </a>
+                        </a>
+                        <a href="img/gallery/1546772081189-6999be49-9715-4106-bfa9-5ff37df74e0b.jpg">
+                            <img alt="caption for image 2"
+                                src="img/gallery/1546772081189-6999be49-9715-4106-bfa9-5ff37df74e0b.jpg" />
+                        </a>
+
+                    </div>
+
+                    <script type="text/javascript">
+                        $('#artGallery').justifiedGallery({
+                            rowHeight: 180,
+                            lastRow: 'justify',
+                            margins: 3,
+                            captions: false
+                        });
+
+                        function zIndexNegative() {
+                            document.getElementById("artGallery").style.zIndex = "-1";
+                        }
+                        function zIndexDefault() {
+                            document.getElementById("artGallery").style.zIndex = "0";
+                        }
+                    </script>
+
+
+                </div>
+            </main>
+
+        </div>
+    </div>
+
+    <footer class="footer" role="contentinfo">
+        <span class="footer-center">&copy; <a href="kontakt#Impressum">Kati Knevels</a> - <a
+                href="kontakt#Datenschutz">Datenschutz</a>
+        </span>
+    </footer>
+
+    <script src="static/js/blueimp-gallery.min.js"></script>
+    <script>
+        document.getElementById('artGallery').onclick = function (event) {
+            event = event || window.event
+            var target = event.target || event.srcElement,
+                link = target.src ? target.parentNode : target,
+                options = { index: link, event: event },
+                links = this.getElementsByTagName('a'),
+                fullscreenOptions = { fullScreen: true }
+            blueimp.Gallery(links, options, fullscreenOptions)
+
+        }
+    </script>
+</body>
+
+</html>
