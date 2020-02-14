@@ -22,15 +22,6 @@
         }
     </script>
 
-<noscript>Bitte aktivieren Sie Javascript um den E-Mail Link anzuzeigen.
-    <style>
-        .nojs {
-            display: none;
-            opacity: 0;
-        }
-    </style>
-</noscript>
-
 </head>
 
 <body onload="setCookie()">
@@ -150,7 +141,14 @@
                         document.write("<p>" + getAddress() + "</p>");
                     </script>
 
-
+                    <noscript>Bitte aktivieren Sie Javascript um den E-Mail Link anzuzeigen.
+                        <style>
+                            .nojs {
+                                display: none;
+                                opacity: 0;
+                            }
+                        </style>
+                    </noscript>
 
                     <span class="mailbutton nojs" onClick="window.location.href = getMail();">E-Mail schreiben</span>
 
