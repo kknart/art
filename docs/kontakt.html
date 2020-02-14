@@ -30,7 +30,9 @@
     </style>
 
     <script>
-        document.querySelector('mailbutton').classList.remove('nojs');
+        var element = document.getElementById("mailbutton");
+        element.classList.remove("nojs");
+        //document.querySelector('mailbutton').classList.remove('nojs');
     </script>
 
 </head>
@@ -155,7 +157,7 @@
                     <noscript>Bitte aktivieren Sie Javascript um den E-Mail Link anzuzeigen.
                     </noscript>
 
-                    <span class="mailbutton nojs" onClick="window.location.href = getMail();">E-Mail schreiben</span>
+                    <span id="mailbutton" class="nojs" onClick="window.location.href = getMail();">E-Mail schreiben</span>
 
                     <h3 id="Datenschutz">Datenschutz</h3>
 
