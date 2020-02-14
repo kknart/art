@@ -29,12 +29,6 @@
         }
     </style>
 
-    <script>
-        var element = document.getElementById("mailbutton");
-        element.classList.remove("nojs");
-        //document.querySelector('mailbutton').classList.remove('nojs');
-    </script>
-
 </head>
 
 <body onload="setCookie()">
@@ -159,6 +153,12 @@
 
                     <span id="mailbutton" class="nojs" onClick="window.location.href = getMail();">E-Mail schreiben</span>
 
+
+                    <script>
+                        var element = document.getElementById("mailbutton");
+                        element.classList.remove("nojs");
+                        //document.querySelector('mailbutton').classList.remove('nojs');
+                    </script>
                     <h3 id="Datenschutz">Datenschutz</h3>
 
                     Vom Verantwortlichen für diese Site werden über Ihren Besuch

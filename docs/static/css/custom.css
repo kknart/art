@@ -194,7 +194,7 @@
 
 /* Mail Button on contact page */
 
-.mailbutton {
+#mailbutton {
   display: inline-block;
   padding: 0.35em 1.2em;
   border: 0.1em solid #000;
@@ -210,22 +210,22 @@
   cursor: pointer;
 }
 
-.mailbutton a:link {
+#mailbutton a:link {
   text-decoration: none;
   color: #000;
 }
 
-.mailbutton a:hover {
+#mailbutton a:hover {
   text-decoration: none;
   color: #fff;
 }
 
-.mailbutton:hover {
+#mailbutton:hover {
   color: #fff;
   background-color: #000;
   text-decoration: none;
 }
 
-.mailbutton:hover a:link {
+#mailbutton:hover a:link {
   color: #fff;
 }
