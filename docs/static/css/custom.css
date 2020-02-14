@@ -108,7 +108,7 @@
     transition: opacity 0.5s;
   }
   .overlay nav {
-    perspective: 300;
+    perspective: 300px;
     -moz-perspective: 300px;
   }
   .overlay nav ul {
