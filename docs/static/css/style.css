@@ -20,7 +20,6 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /*text-rendering: optimizeLegibility;*/
 }
 
 .container {
@@ -167,7 +166,6 @@ p {
 
 h1, h2, h3, h4 {
   font-weight: 300;
-  /*letter-spacing: -0.1rem;*/
   margin-bottom: 0.7rem;
   margin-top: 1.5rem;
 }
@@ -212,10 +210,6 @@ hr {
 
 .float-left {
   float: left;
-}
-
-.float-right {
-  float: right;
 }
 
 .footer {
@@ -303,7 +297,6 @@ nav ul#menu a {
   word-wrap: break-word;
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
-  /*text-rendering: optimizeLegibility !important;*/
   -webkit-font-smoothing: antialiased !important;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -374,7 +367,6 @@ nav ul#menu a:hover {
   grid-row-gap: 0px;
   padding: 0 6vw;
   line-height: 1.5;
-  /*word-break: break-all;*/
   word-wrap: break-word;
 }
 
@@ -389,7 +381,6 @@ nav ul#menu a:hover {
   .main-center {
     padding: 3.5vw 3.5vw;
     background-color: #fff;
-    /*word-wrap: anywhere;*/
   }
 }
 
@@ -534,7 +525,6 @@ nav ul#menu a:hover {
 }
 
 /* Create four equal columns that sit next to each other */
-
 .column {
   flex: 25%;
   max-width: 25%;
@@ -548,7 +538,6 @@ nav ul#menu a:hover {
 }
 
 /* Responsive layout: makes a two column-layout instead of four columns */
-
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
@@ -557,7 +546,6 @@ nav ul#menu a:hover {
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-
 @media screen and (max-width: 600px) {
   .column {
     flex: 100%;
@@ -565,19 +553,7 @@ nav ul#menu a:hover {
   }
 }
 
-/* svg mail icon on contact page */
-/*
-.mailicon {
-  width: 1em;
-  height: 1em;
-  float: left;
-  vertical-align: middle;
-  margin: 0.25em 0.25em 0 0;
-}
-*/
-
 /* Hide Mail Form on contact page */
-
 .mailform {
   text-indent: 100%;
   /*opacity: 0;*/
@@ -588,7 +564,6 @@ nav ul#menu a:hover {
 }
 
 /* Mail Button on contact page */
-
 #mailbutton {
   display: inline-block;
   padding: 0.35em 1.2em;
