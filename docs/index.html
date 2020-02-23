@@ -13,8 +13,6 @@
 
     <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="static/css/custom.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href=favicon.ico type="image/x-icon">
 </head>
 
 <body>
@@ -53,8 +51,9 @@
 
                     <h1>Galerie</h1>
 
-
-
+                    <link rel="stylesheet" href="static/css/justifiedGallery.min.css">
+                    <script src="static/js/jquery-3.4.1.min.js"></script>
+                    <script src="static/js/jquery.justifiedGallery.min.js"></script>
                     <div id="artGallery" class="justified-gallery">
                         <a href="img/gallery/20190106_0001_o.jpg"
                             data-description="Sumpfkalk auf Holzblock mit Pigmenten und Blütenfarbe bemalt. 16,5 x 16.5cm. Holzblock 4,3cm tief"><img
@@ -157,8 +156,6 @@
                                 src="img/gallery/20190106_0028_n.jpg" /></a>
                     </div>
 
-                    <script src="static/js/jquery-3.4.1.min.js"></script>
-                    <script src="static/js/jquery.justifiedGallery.min.js"></script>
                     <script>
                         $('#artGallery').justifiedGallery({
                             rowHeight: 150,
@@ -214,7 +211,6 @@
         };
     </script>
 
-<link rel="stylesheet" href="static/css/justifiedGallery.min.css">
 <link rel="stylesheet" href="static/css/blueimp-gallery.css" />
 <div id="blueimp-gallery" class="blueimp-gallery">
     <div class="slides"></div>
