@@ -407,7 +407,7 @@ nav ul#menu a:hover {
     color: #fff;
     opacity: 0.5;
     line-height: 0.7em;
-    font-size: calc(1.8em + 3.5vw);
+    font-size: 2em;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     transition: opacity .5s ease-out;
