@@ -7,7 +7,7 @@
     <meta name="description" content="Kunst Galerie mit den Themen Papierschöpfen, Papierkunst, Radierungen & Skulpturen.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noarchive">
-    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/style.min.css">
 </head>
 
 <body>
@@ -19,28 +19,31 @@
                     <a href="/"><img class="sitelogo float-left" src="static/img/sitelogo.svg" alt="Kati Knevels"></a>
                 </div>
                 <div class="header-right">
+                <nav>
                     <input type="checkbox" id="op">
                     <label for="op" class="hamburger lower" onclick="zIndexNegative()">
                         &#8801;
                     </label>
                     <div class="overlay">
                         <label for="op" onclick="zIndexDefault()">&#10006;</label>
-                        <nav>
+                        
                             <ul id="menu">
                                 <li><a href="/">Galerie</a></li>
                                 <li><a href="kurse">Kurse</a></li>
                                 <li><a href="kontakt">Kontakt</a></li>
                             </ul>
-                        </nav>
+                        
                     </div>
+                </nav>
                 </div>
             </header>
             <main class="main">
                 <div class="main-center">
                     <h1>Galerie</h1>
-                    <link rel="stylesheet" href="static/css/justifiedGallery.css">
+                    <!--<link rel="stylesheet" href="static/css/justifiedGallery.css">-->
+                    <link rel="stylesheet" href="static/css/gallery.css">
                     <script src="static/js/jquery-3.4.1.min.js"></script>
-                    <script src="static/js/jquery.justifiedGallery.min.js"></script>
+                    <script src="static/js/jquery.justified-gallery.min.js"></script>
                     <div id="artGallery" class="justified-gallery">
                         <a href="img/gallery/20190106_0001_o.jpg"
                             data-description="Sumpfkalk auf Holzblock mit Pigmenten und Blütenfarbe bemalt. 16,5 x 16.5cm. Holzblock 4,3cm tief"><img
@@ -172,7 +175,7 @@
         </span>
     </footer>
 
-    <script defer src="static/js/blueimp-gallery.min.js"></script>
+    <!--<script defer src="static/js/blueimp-gallery.min.js"></script>-->
     <script>
         document.getElementById('artGallery').onclick = function (event) {
             event = event || window.event;
@@ -198,7 +201,7 @@
         };
     </script>
 
-<link rel="stylesheet" href="static/css/blueimp-gallery.css" />
+<link rel="stylesheet" href="static/css/gallery.min.css" />
 <div id="blueimp-gallery" class="blueimp-gallery">
     <div class="slides"></div>
     <h3 class="title">Gallery</h3>
