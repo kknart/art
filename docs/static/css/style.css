@@ -267,7 +267,7 @@ nav ul#menu {
   list-style: none;
   color: gray;
   text-align:center;
-  margin-top: 30%;
+  /*margin-top: 30%;*/
 }
 
 nav ul#menu li {
@@ -388,15 +388,15 @@ nav ul#menu a:hover {
 
 @media only screen and (min-width: 42em) {
   /* Hide all Elements used with mobile burger menue */
-  #op {
+  nav #op {
     visibility: hidden;
     display: none;
   }
-  .hamburger {
+  nav .hamburger {
     visibility: hidden;
     display: none;
   }
-  label {
+  nav label {
     visibility: hidden;
     display: none;
   }
@@ -405,7 +405,7 @@ nav ul#menu a:hover {
 @media only screen and (max-width: 42em) {
   /* Make Logo smaller on small screens */
   /* Burger Menue Font Icon */
-  .hamburger {
+  nav .hamburger {
     color: #fff;
     opacity: 0.5;
     line-height: 1em;
@@ -419,11 +419,11 @@ nav ul#menu a:hover {
     -o-transition: opacity .5s ease-out;
     -ms-transition: opacity .5s ease-in-out;
   }
-  .hamburger:hover {
+  nav .hamburger:hover {
     cursor: pointer;
     opacity: 1;
   }
-  .overlay {
+  nav .overlay {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -431,7 +431,7 @@ nav ul#menu a:hover {
     left: 0;
     background: rgba(0, 0, 0, 0.9);
   }
-  .overlay label {
+  nav .overlay label {
     color: #fff;
     font-size: 3em;
     width: 58px;
@@ -442,29 +442,34 @@ nav ul#menu a:hover {
     z-index: 100;
     cursor: pointer;
   }
-  .overlay nav {
-    text-align: center;
+  nav .overlay .menuwrapper {
     position: relative;
     top: 50%;
     height: 60%;
+    text-align: center;
     font-size: 54px;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
   }
-  .overlay ul {
+  /*nav .overlay menu {
+    position: relative;
+    font-size: 54px;
+  }
+  */
+  nav .overlay ul {
     list-style: none;
     padding: 0;
     margin: 0 auto;
     display: inline-block;
-    height: 100%;
+    /*height: 100%;*/
     position: relative;
   }
-  .overlay ul li {
+  nav .overlay ul li {
     display: block;
     height: 20%;
     height: calc(100% / 5);
   }
-  .overlay ul li a {
+  nav .overlay ul li a {
     color: white;
     display: block;
     font-size: 26px;
@@ -474,28 +479,28 @@ nav ul#menu a:hover {
     transition: color 0.2s ease 0s;
     line-height: 3em;
   }
-  .overlay #menu li:after {
+  nav .overlay #menu li:after {
     content: "";
   }
-  .overlay #menu li:last-child:after {
+  nav .overlay #menu li:last-child:after {
     content: "";
   }
-  .overlay ul li a:hover, .overlay ul li a:focus {
+  nav .overlay ul li a:hover, .overlay ul li a:focus {
     color: #bfe00b;
   }
-  .lower~.overlay {
+  nav .lower~.overlay {
     opacity: 0;
     visibility: hidden;
     -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
     transition: opacity 0.5s, visibility 0s 0.5s;
   }
-  #op:checked~.overlay {
+  nav #op:checked~.overlay {
     opacity: 1;
     visibility: visible;
     -webkit-transition: opacity 0.5s;
     transition: opacity 0.5s;
   }
-  .overlay nav {
+  nav .overlay {
     perspective: 300px;
     -moz-perspective: 300px;
   }
