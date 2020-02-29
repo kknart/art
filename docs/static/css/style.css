@@ -499,25 +499,28 @@ nav ul#menu a:hover {
     perspective: 300px;
     -moz-perspective: 300px;
   }
-  .overlay nav ul {
+  /*.overlay nav ul {
     opacity: 0.4;
     -webkit-transform: translateY(-25%) rotateX(35deg);
     transform: translateY(-25%) rotateX(35deg);
     -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
     transition: transform 0.5s, opacity 0.5s;
   }
+  */
   input#op {
     display: none;
   }
+  /*
   #op:checked~.overlay nav ul {
     opacity: 1;
     -webkit-transform: rotateX(0deg);
     transform: rotateX(0deg);
   }
-  #op:not(:checked)~.overlay nav ul {
+  op:not(:checked)~.overlay nav ul {
     -webkit-transform: translateY(25%) rotateX(-35deg);
     transform: translateY(25%) rotateX(-35deg);
   }
+  */
 }
 
 .row {
