@@ -259,13 +259,15 @@ hr {
 
 nav {
   margin-left: auto;
-  text-align: right;
+  text-align: center;
 }
 
 nav ul#menu {
   cursor: default;
   list-style: none;
   color: gray;
+  text-align:center;
+  margin-top: 30%;
 }
 
 nav ul#menu li {
